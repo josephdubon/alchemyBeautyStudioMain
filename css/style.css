@@ -139,10 +139,10 @@ body {
 
 /*--------------Typography--------------------------------------*/
 p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     padding-bottom: 10px;
-    font-weight: 500;
+    font-weight: 300;
     color: #5e646a;
     text-align: left;
 }
@@ -280,6 +280,119 @@ blockquote p {
 .dark-bg {
     background: #2a2a2e;
 }
+
+/* Full-width content */
+.full-width-content {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Section styling */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h3 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+.section-title .section-number {
+    font-size: 1.2em;
+    color: #999;
+}
+
+.stylist-section {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.stylist-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.stylist-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.stylist-image {
+    flex: 1;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.stylist-row.reverse .stylist-image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.stylist-info {
+    flex: 2;
+}
+
+.stylist-info h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.stylist-info p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bot-element {
+    margin-bottom: 60px;
+}
+
+/* Footer styling */
+.min-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.min-footer .policy-box span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.min-footer .to-top-btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.min-footer .to-top-btn:hover {
+    text-decoration: underline;
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+    .stylist-row {
+        flex-direction: column;
+    }
+
+    .stylist-image {
+        width: 100%;
+        height: 200px;
+        margin: 0 0 20px 0;
+    }
+}
+
 
 /* ------header------------------------------------------------------------ */
 .main-header {
@@ -2836,6 +2949,26 @@ span.header-tooltip {
     font-weight: 700;
     text-align: left;
 }
+
+.divider-with-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Adjust spacing as needed */
+}
+
+.divider-with-icon hr {
+    flex-grow: 1;
+    border: 0;
+    border-top: 1px solid #ccc; /* Adjust color and style */
+    margin: 0 10px; /* Adjust spacing between the icon and the line */
+}
+
+.divider-with-icon i {
+    color: #333; /* Adjust icon color */
+    font-size: 24px; /* Adjust icon size */
+}
+
 
 /* ------sections------------------------------------------------------------ */
 section {

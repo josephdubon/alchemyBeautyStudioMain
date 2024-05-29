@@ -8386,7 +8386,7 @@ source {
     color: rgba(255, 255, 255, 0.71);
     cursor: pointer;
     display: block;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: -25px;
     width: 50px;
     height: 50px;
@@ -8584,7 +8584,7 @@ source {
 
 .lg-sub-html h4 {
     margin: 0;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
 }
 

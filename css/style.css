@@ -3122,6 +3122,7 @@ section.single-content-section {
 .column-title h3 {
     font-family: 'Playfair+Display', serif;
     font-style: italic;
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.91);
     max-width: 400px;
 }

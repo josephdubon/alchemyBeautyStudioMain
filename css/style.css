@@ -4632,6 +4632,18 @@ section.single-content-section {
     padding-left: 12px;
 }
 
+/* ------team------------------------------------------------------------ */
+  .team-image {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+    will-change: transform;
+  }
+
+  .team-image:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
 /* ------responsive------------------------------------------------------------ */
 @media only screen and (max-width: 1365px) {
     .hero-slider_details_wrap {
